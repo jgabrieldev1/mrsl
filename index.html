@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Midir System Labs · MRSL</title>
+  <meta name="description" content="Landing pages e logotipos para quem precisa pra hoje: do briefing ao ar em dias, falando direto com quem faz.">
+  <meta name="theme-color" content="#0a0a0b">
+  <!-- prévia do link quando alguém compartilha (WhatsApp, redes): ao publicar, acrescente og:image e og:url com o
+       endereço completo do site (uma imagem 1200 × 630) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Midir System Labs">
+  <meta property="og:title" content="Midir System Labs · MRSL">
+  <meta property="og:description" content="Landing pages e logotipos para quem precisa pra hoje: do briefing ao ar em dias, falando direto com quem faz.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="./favicon.png?v=mwpew6q9" type="image/png">
+  <link rel="apple-touch-icon" href="./img/mrsl-180.png?v=mwpew6q9">
+  <!-- primeira pintura: nunca a página crua. A abertura liga aqui, antes de qualquer arquivo; até o JS montar o estado
+       inicial, a tela é só o preto (o título espera escondido). Se o JS não subir em 4 s, a página aparece pronta. -->
+  <script>
+    (function () {
+      var r = document.documentElement;
+      r.classList.add('js');
+      if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+      var pronto = /[?&]pronto\b/.test(location.search) || matchMedia('(prefers-reduced-motion: reduce)').matches || location.hash.length > 1;
+      if (!pronto) {
+        r.classList.add('abertura');
+        setTimeout(function () { if (!window.__nubo) r.classList.remove('abertura'); }, 4000);
+      }
+    })();
+  </script>
+  <style>html{background:#0a0a0b}body{margin:0}html:not(.assentou) *,html:not(.assentou) :before,html:not(.assentou) :after{transition:none!important}.abertura:not(.abertura-viva) .hero__texto,.abertura:not(.abertura-viva) .hero__midia,.abertura:not(.abertura-viva) .nav{visibility:hidden}</style>
+  <link rel="preload" as="image" href="./img/ceu.webp?v=mwpew6q9" fetchpriority="high">
+  <script type="module" crossorigin src="./assets/index-B_AIt08s.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DH8CLW5v.css">
+</head>
+<body>
+  <header class="nav" data-nav>
+  <div class="nav__pilula">
+    <a class="nav__logo" href="#topo" aria-label="Midir System Labs, voltar ao início">
+      <img class="marca-img" src="./img/mrsl-160.webp?v=mwpew6q9" alt="" width="46" height="46" decoding="async">
+    </a>
+    <span class="nav__nome" aria-hidden="true"><span class="nome__l">M</span><span class="nome__x">idi</span><span class="nome__l">r</span><span class="nome__x nome__esp"> </span><span class="nome__l">S</span><span class="nome__x">ystem</span><span class="nome__x nome__esp"> </span><span class="nome__l">L</span><span class="nome__x">abs</span></span>
+    <a class="botao nav__cta" href="#contato">Orçamento</a>
+    <button class="nav__menu" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir o menu">
+      <span class="nav__traco"></span><span class="nav__traco"></span><span class="nav__traco"></span>
+    </button>
+  </div>
+
+  <div class="menu" id="menu" role="dialog" aria-label="Menu" hidden>
+    <nav class="menu__links" aria-label="Seções">
+      <a class="menu__link" href="#servicos">Serviços</a>
+      <a class="menu__link" href="#jeito">Nosso jeito</a>
+      <a class="menu__link" href="#estudio">Estúdio</a>
+      <a class="menu__link" href="#contato">Contato</a>
+    </nav>
+    <div class="menu__marca" aria-hidden="true">
+      <img class="marca-img" src="./img/mrsl-160.webp?v=mwpew6q9" alt="" width="58" height="58" decoding="async">
+      <span class="menu__nome">MRSL</span>
+    </div>
+    <div class="menu__redes">
+      <a class="menu__rede" href="https://wa.me/5565981186509" target="_blank" rel="noopener" aria-label="WhatsApp da MRSL">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+  <main>
+    <section class="hero" id="topo" aria-label="Midir System Labs, landing pages e logotipos">
+  <div class="hero__palco">
+    <!-- o céu do entardecer com o dragão de Midir voando (o GIF), recortado pelo balão de pensamento (motion/hero.js
+         desenha o clip-path a cada quadro). Nada aqui dentro tem animação de CSS: só o GIF se mexe -->
+    <div class="hero__midia" aria-hidden="true">
+      <!-- data-foco: onde o dragão está no quadro (x, y em fração); no hero ele pousa no miolo da nuvem -->
+      <div class="hero__filme" data-foco="0.47 0.44">
+        <img class="hero__still" src="./img/ceu.webp?v=mwpew6q9" alt="" width="1536" height="1024" fetchpriority="high" decoding="async">
+        <!-- sem vídeo: o hero.js vê a <video> sem fontes e fica com o céu e o dragão -->
+        <video class="hero__video" muted playsinline preload="none"></video>
+        <div class="dragao">
+          <picture class="dragao__vivo">
+            <source media="(prefers-reduced-motion: reduce)" srcset="./img/dragao-parado.webp?v=mwpew6q9">
+            <img src="./img/dragao.gif?v=mwpew6q9" alt="" width="1000" height="563" decoding="async">
+          </picture>
+        </div>
+      </div>
+      <div class="hero__veu"></div>
+    </div>
+    <!-- a caixa onde a nuvem pousa no hero (medida pelo JS; não aparece) -->
+    <div class="hero__nuvem" aria-hidden="true"></div>
+
+    <div class="hero__texto">
+      <span class="selo" aria-hidden="true"><span class="selo__t">Oi!</span></span>
+      <h1 class="hero__titulo display" data-justifica>
+        <span class="linha"><span class="linha__t">Você procura</span></span>
+        <span class="linha"><span class="linha__t">sites</span></span>
+        <span class="linha"><span class="linha__t">para</span></span>
+        <span class="linha"><span class="linha__t">impactar?</span></span>
+      </h1>
+      <p class="hero__sub">
+        <span class="linha"><span class="linha__t">Landing pages, portfólios</span></span>
+        <span class="linha"><span class="linha__t">e logotipos pra quem</span></span>
+        <span class="linha"><span class="linha__t">precisa disso pra hoje</span></span>
+      </p>
+    </div>
+
+    <!-- com o filme em tela cheia, a frase sobe deitada em perspectiva e some no alto -->
+    <div class="hero__crawl">
+      <h2 class="crawl display" data-justifica>
+        <span class="linha"><span class="linha__t">Sua ideia</span></span>
+        <span class="linha"><span class="linha__t">ganha</span></span>
+        <span class="linha"><span class="linha__t">vida</span></span>
+      </h2>
+    </div>
+
+    <p class="hero__frase">
+      <span class="linha"><span class="linha__t">Design, logotipo ou marca num lugar só,</span></span>
+      <span class="linha"><span class="linha__t">com quem faz junto com você,</span></span>
+      <span class="linha"><span class="linha__t">do briefing até a página no ar.</span></span>
+    </p>
+  </div>
+</section>
+
+    <section class="servicos" id="servicos" data-cena aria-labelledby="servicos-titulo">
+  <div class="servicos__palco">
+    <h2 class="servicos__titulo display" id="servicos-titulo" data-justifica><span class="linha"><span class="linha__t">Serviços</span></span></h2>
+    <p class="servicos__texto">
+      <span class="linha"><span class="linha__t">Landing pages por nicho e logotipos,</span></span>
+      <span class="linha"><span class="linha__t">entrega rápida e com padrão alto, por</span></span>
+      <span class="linha"><span class="linha__t">quem deseja o mesmo que você: resultado.</span></span>
+    </p>
+
+    <!-- cada card é um Holo Card (motion/holo.js): o .card leva a subida presa à rolagem (motion/servicos.js) e o
+         .card__link, dentro dele, leva a inclinação 3D com mola, a folha vermelha e o brilho -->
+    <ol class="cards" aria-label="Os quatro serviços">
+      <li class="card card--1">
+        <a class="card__link holo" data-cursor="Quero esse" href="#contato" data-servico="Landing automotiva">
+          <span class="holo__foil" aria-hidden="true"></span>
+          <span class="card__corpo">
+            <h3 class="card__titulo display" data-justifica="0.3"><span class="linha"><span class="linha__t">Landing</span></span><span class="linha"><span class="linha__t">automotiva</span></span></h3>
+            <span class="card__midia midia--proximo" aria-hidden="true">
+              <span class="proximo__t">O seu pode ser<br>o próximo</span>
+              <span class="proximo__barra"><span class="proximo__cheio"></span></span>
+              <span class="proximo__load">Loading<span class="proximo__pontos"><i>.</i><i>.</i><i>.</i></span></span>
+            </span>
+            <span class="card__pe">
+              <span class="card__texto">Oficina, estética ou revenda, com orçamento no WhatsApp.</span>
+              <svg class="card__seta" viewBox="0 0 100 64" aria-hidden="true"><path d="M8 32h74M56 8l26 24-26 24" fill="none" stroke="currentColor" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </span>
+          <span class="holo__brilho" aria-hidden="true"></span>
+          <span class="sr">Falar sobre landing page automotiva</span>
+        </a>
+      </li>
+      <li class="card card--2">
+        <a class="card__link holo" data-cursor="Quero esse" href="#contato" data-servico="Landing de portfólio">
+          <span class="holo__foil" aria-hidden="true"></span>
+          <span class="card__corpo">
+            <h3 class="card__titulo display" data-justifica="0.3"><span class="linha"><span class="linha__t">Landing de</span></span><span class="linha"><span class="linha__t">portfólio</span></span></h3>
+            <span class="card__midia midia--foto" aria-hidden="true"><img src="./img/pavonia.webp?v=mwpew6q9" alt="" width="1200" height="750" loading="lazy" decoding="async"><span class="midia__selo">Pavonia · no ar</span></span>
+            <span class="card__pe">
+              <span class="card__texto">Seu trabalho em destaque desde o primeiro scroll.</span>
+              <svg class="card__seta" viewBox="0 0 100 64" aria-hidden="true"><path d="M8 32h74M56 8l26 24-26 24" fill="none" stroke="currentColor" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </span>
+          <span class="holo__brilho" aria-hidden="true"></span>
+          <span class="sr">Falar sobre landing page de portfólio. Exemplo: Pavonia Audiovisual</span>
+        </a>
+      </li>
+      <li class="card card--3">
+        <a class="card__link holo" data-cursor="Quero esse" href="#contato" data-servico="Landing saúde e bem-estar">
+          <span class="holo__foil" aria-hidden="true"></span>
+          <span class="card__corpo">
+            <h3 class="card__titulo display" data-justifica="0.3"><span class="linha"><span class="linha__t">Saúde &amp;</span></span><span class="linha"><span class="linha__t">bem-estar</span></span></h3>
+            <span class="card__midia midia--proximo" aria-hidden="true">
+              <span class="proximo__t">O seu pode ser<br>o próximo</span>
+              <span class="proximo__barra"><span class="proximo__cheio"></span></span>
+              <span class="proximo__load">Loading<span class="proximo__pontos"><i>.</i><i>.</i><i>.</i></span></span>
+            </span>
+            <span class="card__pe">
+              <span class="card__texto">Clínica, estúdio ou terapia, com agenda pelo WhatsApp.</span>
+              <svg class="card__seta" viewBox="0 0 100 64" aria-hidden="true"><path d="M8 32h74M56 8l26 24-26 24" fill="none" stroke="currentColor" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </span>
+          <span class="holo__brilho" aria-hidden="true"></span>
+          <span class="sr">Falar sobre landing page de saúde e bem-estar</span>
+        </a>
+      </li>
+      <li class="card card--4">
+        <a class="card__link holo" data-cursor="Quero esse" href="#contato" data-servico="Logotipo">
+          <span class="holo__foil" aria-hidden="true"></span>
+          <span class="card__corpo">
+            <h3 class="card__titulo display" data-justifica="0.3"><span class="linha"><span class="linha__t">Criação de</span></span><span class="linha"><span class="linha__t">logotipo</span></span></h3>
+            <span class="card__midia midia--logo" aria-hidden="true"><img src="./img/mrsl-640.webp?v=mwpew6q9" alt="" width="640" height="640" loading="lazy" decoding="async"></span>
+            <span class="card__pe">
+              <span class="card__texto">Marca com cara própria, do esboço ao arquivo final.</span>
+              <svg class="card__seta" viewBox="0 0 100 64" aria-hidden="true"><path d="M8 32h74M56 8l26 24-26 24" fill="none" stroke="currentColor" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </span>
+          <span class="holo__brilho" aria-hidden="true"></span>
+          <span class="sr">Falar sobre criação de logotipo</span>
+        </a>
+      </li>
+    </ol>
+  </div>
+</section>
+
+    <section class="jeito" id="jeito" data-cena aria-labelledby="jeito-titulo">
+  <div class="jeito__palco">
+    <div class="jeito__trilho">
+      <div class="jeito__abre">
+        <h2 class="jeito__titulo display" id="jeito-titulo" data-justifica>
+          <span class="linha"><span class="linha__t">Nosso</span></span>
+          <span class="linha"><span class="linha__t">jeito</span></span>
+        </h2>
+      </div>
+
+      <div class="jeito__entrada">
+        <p class="jeito__frase">
+          <span class="linha"><span class="linha__t">Pra quem precisa pra hoje,</span></span>
+          <span class="linha"><span class="linha__t">sem abrir mão do padrão:</span></span>
+        </p>
+      </div>
+
+      <article class="painel painel--1">
+        <h3 class="painel__texto display">
+          <span class="painel__par"><span class="linha"><span class="linha__t">Prazo</span></span><span class="linha"><span class="linha__t">curto,</span></span></span>
+          <span class="painel__par"><span class="linha"><span class="linha__t">padrão</span></span><span class="linha"><span class="linha__t">alto</span></span></span>
+        </h3>
+        <div class="painel__capsula painel__capsula--holo" aria-hidden="true">
+          <!-- a cápsula de fora anda com a faixa (motion/jeito.js); a de dentro inclina sob o ponteiro (motion/holo.js) -->
+          <div class="capsula__holo holo">
+            <!-- a ampulheta (foto) cobre a cápsula; por cima, no gargalo, o fio de areia caindo e a luz da base pulsando -->
+            <div class="ampulheta">
+              <img class="ampulheta__foto" src="./img/ampulheta.webp?v=mwpew6q9" alt="" width="844" height="1480" decoding="async" fetchpriority="low">
+              <span class="ampulheta__fio"></span>
+              <span class="ampulheta__luz"></span>
+            </div>
+            <span class="holo__brilho"></span>
+          </div>
+        </div>
+      </article>
+
+      <article class="painel painel--3">
+        <h3 class="painel__texto display">
+          <span class="painel__par"><span class="linha"><span class="linha__t">Quem</span></span><span class="linha"><span class="linha__t">faz</span></span></span>
+          <span class="painel__par"><span class="linha"><span class="linha__t">é quem</span></span><span class="linha"><span class="linha__t">entende</span></span></span>
+        </h3>
+        <div class="painel__circulo" aria-hidden="true"></div>
+        <img class="painel__recorte" src="./img/retrato-2.webp?v=mwpew6q9" alt="" decoding="async" fetchpriority="low">
+        <!-- a Glass Folder (motion/pasta.js): fotos do João no bolso, só a ponta à vista; o vidro é o link -->
+        <a class="pasta" href="https://jgabrieldev.com.br/" target="_blank" rel="noopener" data-cursor="Conhecer">
+          <span class="pasta__palco">
+            <span class="pasta__sombra" aria-hidden="true"></span>
+            <span class="pasta__tras" style="clip-path: path('M0 56A22 22 0 0 1 22 34L146 34C170 34 172 0 198 0L318 0A22 22 0 0 1 340 22L340 250A22 22 0 0 1 318 272L22 272A22 22 0 0 1 0 250Z')" aria-hidden="true">
+              <canvas class="pasta__arte"></canvas>
+              <span class="pasta__brilho-tras"></span>
+            </span>
+            <svg class="pasta__aro pasta__aro-tras" viewBox="0 0 340 272" aria-hidden="true"><path d="M0 56A22 22 0 0 1 22 34L146 34C170 34 172 0 198 0L318 0A22 22 0 0 1 340 22L340 250A22 22 0 0 1 318 272L22 272A22 22 0 0 1 0 250Z"/></svg>
+            <span class="pasta__fotos" aria-hidden="true">
+              <span class="pasta__folha" style="--gf-slot: -1; --gf-depth: 2; --gf-jx: -3.1px; --gf-jr: -1.2deg; z-index: 1"><img src="./img/joao-3.webp?v=mwpew6q9" alt="" width="544" height="368" loading="lazy" decoding="async"></span>
+              <span class="pasta__folha" style="--gf-slot: 0; --gf-depth: 1; --gf-jx: 2.4px; --gf-jr: 0.9deg; z-index: 2"><img src="./img/joao-2.webp?v=mwpew6q9" alt="" width="544" height="368" loading="lazy" decoding="async"></span>
+              <span class="pasta__folha" style="--gf-slot: 1; --gf-depth: 0; --gf-jx: -1.6px; --gf-jr: -0.6deg; z-index: 3"><img src="./img/joao-1.webp?v=mwpew6q9" alt="" width="544" height="368" loading="lazy" decoding="async"></span>
+            </span>
+            <span class="pasta__frente" style="clip-path: path('M0 22A22 22 0 0 1 22 0L118 0C144 0 146 32 172 32L318 32A22 22 0 0 1 340 54L340 176A22 22 0 0 1 318 198L22 198A22 22 0 0 1 0 176Z')">
+              <span class="pasta__tinta" aria-hidden="true"></span>
+              <span class="pasta__luz" aria-hidden="true"></span>
+              <svg class="pasta__aro pasta__aro-frente" viewBox="0 0 340 198" aria-hidden="true">
+                <defs><linearGradient id="pasta-aro" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.95"/><stop offset="0.35" stop-color="#fff" stop-opacity="0.35"/><stop offset="1" stop-color="#fff" stop-opacity="0.12"/></linearGradient></defs>
+                <path d="M0 22A22 22 0 0 1 22 0L118 0C144 0 146 32 172 32L318 32A22 22 0 0 1 340 54L340 176A22 22 0 0 1 318 198L22 198A22 22 0 0 1 0 176Z" stroke="url(#pasta-aro)"/>
+              </svg>
+              <span class="pasta__rotulo">
+                <span class="pasta__titulo">Conheça quem está por trás disso tudo</span>
+                <span class="pasta__link">jgabrieldev.com.br<svg class="pasta__seta" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 11L11 3M5 3h6v6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              </span>
+            </span>
+          </span>
+        </a>
+      </article>
+
+      <article class="painel painel--4">
+        <h3 class="painel__texto display">
+          <span class="painel__par"><span class="linha"><span class="linha__t">Feito pra</span></span><span class="linha"><span class="linha__t">converter</span></span></span>
+          <span class="painel__par"><span class="linha"><span class="linha__t">desde o</span></span><span class="linha"><span class="linha__t">dia um</span></span></span>
+        </h3>
+        <div class="painel__capsula painel__capsula--holo" aria-hidden="true">
+          <!-- a cápsula de fora anda com a faixa (motion/jeito.js); a de dentro inclina sob o ponteiro (motion/holo.js) -->
+          <div class="capsula__holo holo">
+            <picture><source media="(prefers-reduced-motion: reduce)" srcset="./img/check-parado.webp?v=mwpew6q9"><img class="capsula__gif capsula__gif--check" src="./img/check.webp?v=mwpew6q9" alt="" decoding="async" fetchpriority="low"></picture>
+            <span class="holo__brilho"></span>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!-- o dragãozinho: o mesmo dragão do balão do topo, voando junto com a faixa (motion/jeito.js) -->
+    <picture class="jeito__aviao-quadro">
+      <source media="(prefers-reduced-motion: reduce)" srcset="./img/dragao-parado.webp?v=mwpew6q9">
+      <img class="jeito__aviao" src="./img/dragao.gif?v=mwpew6q9" alt="" aria-hidden="true" width="1000" height="563" decoding="async" fetchpriority="low">
+    </picture>
+  </div>
+</section>
+
+    <section class="estudio" id="estudio" data-cena aria-labelledby="estudio-titulo">
+  <h2 class="estudio__titulo display" id="estudio-titulo" data-justifica><span class="linha"><span class="linha__t">Estúdio</span></span></h2>
+  <div class="estudio__fila" data-cursor="Arrasta" tabindex="0" role="region" aria-label="Fotos do estúdio (arraste ou use as setas)">
+    <ul class="estudio__faixa">
+      <li class="foto foto--deitada"><img src="./img/estudio-1.webp?v=mwpew6q9" alt="O setup de trabalho: dois monitores com código, teclado iluminado, microfone e o gabinete com luz colorida, numa parede verde-água" width="1200" height="900" loading="lazy" decoding="async"></li>
+      <li class="foto foto--em-pe"><img src="./img/estudio-2.webp?v=mwpew6q9" alt="Detalhe do monitor com código na tela e o microfone na mesa" width="760" height="1140" loading="lazy" decoding="async"></li>
+      <li class="foto foto--deitada"><img src="./img/estudio-4.webp?v=mwpew6q9" alt="Detalhe do gabinete com luz colorida, o controle e o fone na mesa" width="1200" height="800" loading="lazy" decoding="async"></li>
+    </ul>
+  </div>
+  <div class="estudio__setas">
+    <button class="seta seta--volta" type="button" data-dir="-1" aria-label="Fotos anteriores"><svg viewBox="0 0 40 24" aria-hidden="true"><path d="M3 12h31M24 3l10 9-10 9" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <button class="seta" type="button" data-dir="1" aria-label="Próximas fotos"><svg viewBox="0 0 40 24" aria-hidden="true"><path d="M3 12h31M24 3l10 9-10 9" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  </div>
+</section>
+
+    <section class="contato" id="contato" data-fecho aria-labelledby="contato-titulo">
+  <div class="contato__grade">
+    <h2 class="contato__titulo display" id="contato-titulo">
+      <span class="linha"><span class="linha__t">Vamos</span></span>
+      <span class="linha"><span class="linha__t">conversar</span></span>
+    </h2>
+    <p class="contato__apoio">Conta o que você precisa e pra quando. O formulário abre o WhatsApp com a sua mensagem pronta, ou chama direto: <a class="contato__wa" href="https://wa.me/5565981186509" target="_blank" rel="noopener">(65) 98118-6509</a>.</p>
+
+    <form class="form" novalidate aria-labelledby="form-cabeca">
+      <p class="form__cabeca" id="form-cabeca">Pedir orçamento</p>
+      <div class="form__linha form__linha--2">
+        <label class="campo">
+          <span class="campo__rotulo">Nome</span>
+          <input class="campo__entrada" name="nome" autocomplete="given-name" required>
+          <span class="campo__erro" aria-live="polite"></span>
+        </label>
+        <label class="campo">
+          <span class="campo__rotulo">Sobrenome</span>
+          <input class="campo__entrada" name="sobrenome" autocomplete="family-name">
+        </label>
+      </div>
+      <fieldset class="campo campo--servico">
+        <legend class="campo__rotulo">O que você precisa</legend>
+        <div class="pilulas">
+          <label class="pilula"><input type="radio" name="servico" value="Landing automotiva"><span>Landing automotiva</span></label>
+          <label class="pilula"><input type="radio" name="servico" value="Landing de portfólio"><span>Landing de portfólio</span></label>
+          <label class="pilula"><input type="radio" name="servico" value="Landing saúde e bem-estar"><span>Saúde e bem-estar</span></label>
+          <label class="pilula"><input type="radio" name="servico" value="Logotipo"><span>Logotipo</span></label>
+          <label class="pilula"><input type="radio" name="servico" value="Ainda não sei" checked><span>Ainda não sei</span></label>
+        </div>
+      </fieldset>
+      <label class="campo campo--msg">
+        <span class="campo__rotulo">Mensagem</span>
+        <textarea class="campo__entrada" name="mensagem" rows="4" required></textarea>
+        <span class="campo__erro" aria-live="polite"></span>
+      </label>
+      <div class="form__pe">
+        <p class="form__aviso">Ao enviar, o WhatsApp abre com a mensagem montada. Nada fica salvo neste site.</p>
+        <button class="botao form__enviar" type="submit">Enviar no WhatsApp</button>
+      </div>
+      <div class="form__ok" role="status" hidden>
+        <p class="form__ok-titulo display">Valeu!</p>
+        <p class="form__ok-texto">O WhatsApp abriu com a sua mensagem: é só tocar em enviar lá. Não abriu? <a class="form__wa" href="https://wa.me/5565981186509" target="_blank" rel="noopener">Abrir o WhatsApp</a>.</p>
+        <button class="form__denovo" type="button">Mandar outra</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+  </main>
+  <footer class="rodape" id="rodape">
+  <nav class="rodape__links" aria-label="Seções">
+    <a class="rodape__link" href="#servicos">Serviços</a>
+    <a class="rodape__link" href="#jeito">Nosso jeito</a>
+    <a class="rodape__link" href="#estudio">Estúdio</a>
+    <a class="rodape__link" href="#contato">Contato</a>
+  </nav>
+  <div class="rodape__info">
+    <a class="rodape__logo" href="#topo" aria-label="Midir System Labs, voltar ao início"><img class="marca-img" src="./img/mrsl-160.webp?v=mwpew6q9" alt="" width="58" height="58" loading="lazy" decoding="async"></a>
+    <p class="rodape__legal">© 2026 Midir System Labs · MRSL<br>Landing pages e logotipos · Cuiabá, MT</p>
+    <div class="rodape__redes">
+      <a class="rodape__rede" href="https://wa.me/5565981186509" target="_blank" rel="noopener" aria-label="WhatsApp da MRSL"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></svg></a>
+    </div>
+  </div>
+  <div class="rodape__fecho">
+    <!-- o dragão da marca voando em volta das letras: passa por trás delas em cima e pela frente embaixo (motion/rodape.js) -->
+    <picture class="rodape__dragao-quadro">
+      <source media="(prefers-reduced-motion: reduce)" srcset="./img/dragao-parado.webp?v=mwpew6q9">
+      <img class="rodape__dragao" src="./img/dragao.gif?v=mwpew6q9" alt="" aria-hidden="true" width="1000" height="563" loading="lazy" decoding="async">
+    </picture>
+    <p class="rodape__nome display" data-justifica aria-label="Sua ideia no ar com a MRSL">
+      <span class="linha" aria-hidden="true"><span class="linha__t">Sua ideia no ar</span></span>
+      <span class="linha" aria-hidden="true"><span class="linha__t">com a MRSL</span></span>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
